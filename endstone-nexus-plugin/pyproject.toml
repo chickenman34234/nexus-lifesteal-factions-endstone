@@ -1,0 +1,12 @@
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "endstone-nexus-plugin"
+version = "0.1.0"
+description = "Nexus lifesteal factions plugin for Endstone"
+
+[project.entry-points."endstone"]
+nexus-plugin = "endstone_nexus_plugin:NexusPlugin"
